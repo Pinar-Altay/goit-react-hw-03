@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: #ff4c4c;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: lightgray;
+    border: solid 1px black;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
